@@ -1,0 +1,280 @@
+  
+      #logo{
+      
+   -fx-font-size: 40px;
+   -fx-font-family: "Arial Black";
+   -fx-fill: #818181;
+   -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+    }
+
+    #an2{
+      
+        -fx-background-repeat: stretch;   
+        -fx-background-size: 900 506;
+        -fx-background-position: center center;
+        -fx-background-color: #1D6363;
+        -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+    }
+
+    #an1{
+
+          
+        -fx-background-repeat: stretch;   
+        -fx-background-size: 900 506;
+        -fx-background-position: center center;
+        -fx-background-color: #387C7C;
+        -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+                  -fx-effect: innershadow(THREE_PASS_BOX, 0,0,0,30);
+    }
+    
+    #an3{
+        -fx-background-repeat: stretch;   
+        -fx-background-size: 900 506;
+        -fx-background-position: center center;
+        -fx-background-color: #8CB9B9;
+        -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+    }
+
+    #scroll{
+        -fx-background-repeat: stretch;   
+        -fx-background-size: 900 506;
+        -fx-background-position: center center;
+        -fx-background-color: #191970;
+        -fx-effect: dropshadow(three-pass-box, #666666, 10, 40, 0, 0); 
+        
+    }
+    #choice-box{
+   -fx-overflow:hidden;
+   -fx-width:350px;
+   -fx-moz-border-radius: 9px 9px 9px 9px;
+   -fx-webkit-border-radius: 9px 9px 9px 9px;
+   -fx-border-radius: 9px 9px 9px 9px;
+   -fx-box-shadow: 1px 1px 11px #330033;
+   -fx-background: #58B14C no-repeat scroll 319px center;
+}
+   
+    
+    #btn_plus_moins {
+	-fx-moz-box-shadow: 0px 10px 14px -7px #d6cd1c;
+	-fx-webkit-box-shadow: 0px 10px 14px -7px #d6cd1c;
+	-fx-box-shadow: 0px 10px 14px -7px #d6cd1c;
+	-fx-background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e07c24), color-stop(1, #acbd2d));
+	-fx-background:-moz-linear-gradient(top, #e07c24 5%, #acbd2d 100%);
+	-fx-background:-webkit-linear-gradient(top, #e07c24 5%, #acbd2d 100%);
+	-fx-background:-o-linear-gradient(top, #e07c24 5%, #acbd2d 100%);
+	-fx-background:-ms-linear-gradient(top, #e07c24 5%, #acbd2d 100%);
+	-fx-background:linear-gradient(to bottom, #e07c24 5%, #acbd2d 100%);
+	-fx-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e07c24', endColorstr='#acbd2d',GradientType=0);
+	-fx-background-color:#C2DDDD;
+	-fx-moz-border-radius:9px;
+	-fx-webkit-border-radius:9px;
+	-fx-border-radius:9px;
+	-fx-display:inline-block;
+	-fx-cursor:pointer;
+	-fx-color:#ffffff;
+	-fx-font-family:Arial;
+	-fx-font-size:20px;
+	-fx-font-weight:bold;
+	-fx-padding:5px 9px;
+	-fx-text-decoration:none;
+	-fx-text-shadow:0px 1px 0px #d15614;
+}
+#btn_plus_moins:hover {
+	-fx-background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #acbd2d), color-stop(1, #e07c24));
+	-fx-background:-moz-linear-gradient(top, #acbd2d 5%, #e07c24 100%);
+	-fx-background:-webkit-linear-gradient(top, #acbd2d 5%, #e07c24 100%);
+	-fx-background:-o-linear-gradient(top, #acbd2d 5%, #e07c24 100%);
+	-fx-background:-ms-linear-gradient(top, #acbd2d 5%, #e07c24 100%);
+	-fx-background:linear-gradient(to bottom, #acbd2d 5%, #e07c24 100%);
+	-fx-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#acbd2d', endColorstr='#e07c24',GradientType=0);
+	-fx-background-color:#4682B4;
+}
+
+
+ #btn_redimensionner {
+	-fx-moz-box-shadow: 0px 10px 14px -7px #d6cd1c;
+	-fx-webkit-box-shadow: 0px 10px 14px -7px #d6cd1c;
+	-fx-box-shadow: 0px 10px 14px -7px #d6cd1c;
+	-fx-background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e07c24), color-stop(1, #acbd2d));
+	-fx-background:-moz-linear-gradient(top, #e07c24 5%, #acbd2d 100%);
+	-fx-background:-webkit-linear-gradient(top, #e07c24 5%, #acbd2d 100%);
+	-fx-background:-o-linear-gradient(top, #e07c24 5%, #acbd2d 100%);
+	-fx-background:-ms-linear-gradient(top, #e07c24 5%, #acbd2d 100%);
+	-fx-background:linear-gradient(to bottom, #e07c24 5%, #acbd2d 100%);
+	-fx-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e07c24', endColorstr='#acbd2d',GradientType=0);
+	-fx-background-color:#C2DDDD;
+	-fx-moz-border-radius:9px;
+	-fx-webkit-border-radius:9px;
+	-fx-border-radius:9px;
+	-fx-display:inline-block;
+	-fx-cursor:pointer;
+	-fx-color:#ffffff;
+	-fx-font-family:Arial;
+	-fx-font-size:14px;
+	-fx-font-weight:bold;
+	-fx-padding:5px 9px;
+	-fx-text-decoration:none;
+	-fx-text-shadow:0px 1px 0px #d15614;
+}
+#btn_redimensionner:hover {
+	-fx-background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #acbd2d), color-stop(1, #e07c24));
+	-fx-background:-moz-linear-gradient(top, #acbd2d 5%, #e07c24 100%);
+	-fx-background:-webkit-linear-gradient(top, #acbd2d 5%, #e07c24 100%);
+	-fx-background:-o-linear-gradient(top, #acbd2d 5%, #e07c24 100%);
+	-fx-background:-ms-linear-gradient(top, #acbd2d 5%, #e07c24 100%);
+	-fx-background:linear-gradient(to bottom, #acbd2d 5%, #e07c24 100%);
+	-fx-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#acbd2d', endColorstr='#e07c24',GradientType=0);
+	-fx-background-color:#4682B4;
+}
+
+#btn_plus_moins:active {
+	-fx-position:relative;
+	-fx-top:1px;
+}
+#importer {
+	-fx-moz-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	-fx-webkit-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	-fx-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	-fx-background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffc477), color-stop(1, #fb9e25));
+	-fx-background:-moz-linear-gradient(top, #ffc477 5%, #fb9e25 100%);
+	-fx-background:-webkit-linear-gradient(top, #ffc477 5%, #fb9e25 100%);
+	-fx-background:-o-linear-gradient(top, #ffc477 5%, #fb9e25 100%);
+	-fx-background:-ms-linear-gradient(top, #ffc477 5%, #fb9e25 100%);
+	-fx-background:linear-gradient(to bottom, #ffc477 5%, #fb9e25 100%);
+	-fx-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc477', endColorstr='#fb9e25',GradientType=0);
+	-fx-background-color:#C2DDDD;
+	-fx--moz-border-radius:6px;
+	-fx--webkit-border-radius:6px;
+	-fx-border-radius:6px;
+	-fx-border:1px solid #eeb44f;
+	-fx-display:inline-block;
+	-fx-cursor:pointer;
+	-fx-color:#ffffff;
+	-fx-font-family:Times New Roman;
+	-fx-font-size:13px;
+	-fx-font-weight:bold;
+	-fx-padding:6px 24px;
+	-fx-text-decoration:none;
+	-fx-text-shadow:0px 1px 0px #cc9f52;
+}
+#importer:hover {
+	-fx-background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #fb9e25), color-stop(1, #ffc477));
+	-fx-background:-moz-linear-gradient(top, #fb9e25 5%, #ffc477 100%);
+	-fx-background:-webkit-linear-gradient(top, #fb9e25 5%, #ffc477 100%);
+	-fx-background:-o-linear-gradient(top, #fb9e25 5%, #ffc477 100%);
+	-fx-background:-ms-linear-gradient(top, #fb9e25 5%, #ffc477 100%);
+	-fx-background:linear-gradient(to bottom, #fb9e25 5%, #ffc477 100%);
+	-fx-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fb9e25', endColorstr='#ffc477',GradientType=0);
+	-fx-background-color:#008080;
+}
+#importer:active {
+	-fx-position:relative;
+	-fx-top:1px;
+}
+#zoom {
+	-fx-moz-box-shadow:inset 0px -6px 35px 11px #ffffff;
+	-fx-webkit-box-shadow:inset 0px -6px 35px 11px #ffffff;
+	-fx-box-shadow:inset 0px -6px 35px 11px #ffffff;
+	-fx-background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f6f6f6));
+	-fx-background:-moz-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	-fx-background:-webkit-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	-fx-background:-o-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	-fx-background:-ms-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	-fx-background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	-fx-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0);
+	-fx-background-color:#8CB9B9;
+	-fx-moz-border-radius:6px;
+	-fx-webkit-border-radius:6px;
+	-fx-border-radius:6px;
+	-fx-border:2px solid #dcdcdc;
+	-fx-display:inline-block;
+	-fx-cursor:pointer;
+	-fx-color:#666666;
+	-fx-font-family:Georgia;
+	-fx-font-size:15px;
+	-fx-font-weight:bold;
+	-fx-padding:9px 5px;
+	-fx-text-decoration:none;
+	-fx-text-shadow:0px 0px 0px #ffffff;
+}
+#zoom:hover {
+	-fx-background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f6f6f6), color-stop(1, #ffffff));
+	-fx-background:-moz-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+	-fx-background:-webkit-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+	-fx-background:-o-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+	-fx-background:-ms-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+	-fx-background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	-fx-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#ffffff',GradientType=0);
+	-fx-background-color:#4682B4;
+}
+#zoom:active {
+	-fx-position:relative;
+	-fx-top:1px;
+}
+
+#btn_play {
+    -fx-background-image: url('img/fx_play.png');
+    -fx-background-repeat: stretch;
+    -fx-background-position: center center;
+    -fx-background-color: transparent;
+}
+
+#btn_play:hover {
+   
+    -fx-border-color: whitesmoke;
+}
+
+#rotate_left:hover {
+   
+    -fx-border-color: whitesmoke;
+}
+
+#rotate_right:hover {
+   
+    -fx-border-color: whitesmoke;
+}
+
+#btn_stop {
+    -fx-background-image: url('img/fx_stop.png');
+    -fx-background-repeat: stretch;
+    -fx-background-position: center center;
+    -fx-background-color: transparent;
+}
+
+#btn_stop:hover {
+   
+    -fx-border-color: whitesmoke;
+}
+
+#btn_next {
+    -fx-background-image: url('img/fx_next.png');
+    -fx-background-repeat: stretch;
+    -fx-background-position: center center;
+    -fx-background-color: transparent;
+}
+
+#btn_next:hover {
+   
+    -fx-border-color: whitesmoke;
+}
+#btn_prev {
+        -fx-background-image: url('img/fx_back.png');
+    -fx-background-repeat: stretch;
+    -fx-background-position: center center;
+    -fx-background-color: transparent;
+}
+
+#btn_prev:hover {
+   
+    -fx-border-color: whitesmoke;
+}
+
+#zoom_plus:hover {
+   
+    -fx-border-color: whitesmoke;
+}
+
+#zoom_moins:hover {
+   
+    -fx-border-color: whitesmoke;
+}
